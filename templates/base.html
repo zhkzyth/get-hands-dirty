@@ -1,0 +1,19 @@
+$def with (page, title=None)
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+      <title>my site\
+         $if title:
+            $:title
+      </title>
+      
+   </head>
+   <body>
+      <h1>
+         <a href="#">
+            $:page
+         </a>
+      </h1>
+   </body>
+</html>

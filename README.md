@@ -1,4 +1,4 @@
-get-hands-dirty
-===============
+shellTrain
+==========
 
-it's fine to make mistakes,enjoy it....
+train,like a athlete

@@ -1,0 +1,22 @@
+$def with(todos, form)
+
+<table border="0">
+   <tr>
+      <th>What to do?</th>
+      <th></th>
+   </tr>
+
+   $for todo in todos:
+      <tr>
+         <td>$todo.title</td>
+         <td>
+            <form action="/del/$todo.id" method="post" accept-charset="utf-8">
+               <input type="submit" name="" id="" value="Delete" />
+            </form>
+         </td>
+      </tr>
+   </table>
+
+   <form action="" method="post" accept-charset="utf-8">
+      $:form.render()
+   </form>

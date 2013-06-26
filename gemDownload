@@ -1,0 +1,8 @@
+gem sources -a http://ruby.taobao.org
+gem install rails
+
+#for bundle
+source 'http://rubygems.org'
+#改成
+source 'htpp://ruby.taobao.org/'
+
